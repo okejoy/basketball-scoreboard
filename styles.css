@@ -1,0 +1,66 @@
+
+/* GENERIC DESIGN */
+
+button{
+    background: none;
+    cursor: pointer; 
+    background: white;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    color:white;
+    background: rgb(223, 203, 24);
+    font-family: serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    background: rgba(6, 6, 248, 0.925);
+    margin-top: 30px;
+    padding: 20px 0px
+}
+
+h1{
+    color: rgb(12, 9, 9);
+    text-shadow: -1px 1px 2px white;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+
+/* DESIGN FOR THE HOME BOARD */
+
+#home-score{
+    background: black;
+    color: #da0f34;
+    font-size: 95px;
+    width: 150px;
+    margin: 20px;
+    font-family: cursive;
+
+}
+
+
+
+/* DESIGN FOR THE GUEST BOARD */
+
+
+#guest-score{
+    background: black;
+    color: #da0f34;
+    font-size: 95px;
+    width: 150px;
+    margin: 20px;
+    font-family: cursive;
+}
+
+
+
